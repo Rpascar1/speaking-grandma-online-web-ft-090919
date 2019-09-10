@@ -1,9 +1,9 @@
 require'pry'
 def speak_to_grandma(string)
-  if #{string}.upcase
+  if "#{string}".upcase
     puts "NOT SINCE 1938!"
 binding.pry
-  elsif #{string}.upcase == "I LOVE YOU GRANDMA!"
+  elsif "#{string}".upcase == "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN!"
   else 
     puts "HUH?! SPEAK UP, SONNY!"
