@@ -1,4 +1,8 @@
-def speak_to_grandma
+def speak_to_grandma(string)
+  if string.upcase
+    puts "NOT SINCE 1938!"
+  else
+    puts "HUH?! SPEAK UP, SONNY!"
 end
 
 
